@@ -54,6 +54,7 @@ public slots: // virtual methods API for QML
     virtual bool isEmpty (void) const = 0;
     virtual bool contains (QObject * item) const = 0;
     virtual int indexOf (QObject * item) const = 0;
+    virtual int indexOf (const QString & uid) const = 0;
     virtual int roleForName (const QByteArray & name) const = 0;
     virtual void clear (void) = 0;
     virtual void append (QObject * item) = 0;
