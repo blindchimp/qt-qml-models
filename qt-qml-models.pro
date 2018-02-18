@@ -1,1 +1,1 @@
-QtQmlModels.pro
+include($$PWD/QtQmlModels.pro)
